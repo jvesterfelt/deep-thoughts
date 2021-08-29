@@ -16,11 +16,12 @@ Download source files, and install dependencies (ensure that you have a mongodb 
     
 ## Usage
 This is intended as an educational demonstration only.
-    
+ 
+### Video Demonstration:
+https://youtu.be/maEM9nVUiQk  
+   
 #### Usage Screenshots:
-
-    
-
+![image](https://user-images.githubusercontent.com/81572838/131269462-479185b0-7267-4e0d-a925-eebefe66cb86.png)
     
 ## Contributing
 Before contributing to this project please review the Contributor Covenant Code of Conduct:
