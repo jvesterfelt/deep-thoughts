@@ -47,5 +47,13 @@ const userController = {
                 res.json(dbUserData);
             })
             .catch(err => res.status(400).json(err));
+    },
+
+    deleteUser({ params }, res) {
+        User.findOneAndDelete({ _id: params.id })
+            .then(dbUserData => res.json(dbUserData))
+            .catch(err => res.json(err));
     }
-}
+};
+
+module.exports = userController;
