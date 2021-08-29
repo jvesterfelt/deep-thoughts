@@ -24,7 +24,8 @@ ReactionSchema = new Schema({
 }, {
     toJSON: {
         getters: true
-    }
+    },
+    id: false
 });
 
 const ThoughtSchema = new Schema({
@@ -52,7 +53,7 @@ const ThoughtSchema = new Schema({
     id: false
 });
 
-ThoughtSchema.virtual('replyCount').get(function() {
+ThoughtSchema.virtual('reactionCount').get(function() {
     return this.reactions.length;
 });
 
