@@ -1,0 +1,22 @@
+{
+  "name": "deep-thoughts",
+  "version": "1.0.0",
+  "description": "A NOSQL API built using Express.js and Mongoose.js to mimic a social networking app where users can make friends and share thoughts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvesterfelt/deep-thoughts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvesterfelt/deep-thoughts/issues"
+  },
+  "homepage": "https://github.com/jvesterfelt/deep-thoughts#readme",
+  "dependencies": {
+    "mongoose": "^6.0.2"
+  }
+}
