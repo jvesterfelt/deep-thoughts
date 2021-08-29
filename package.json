@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jvesterfelt/deep-thoughts#readme",
   "dependencies": {
-    "mongoose": "^6.0.2"
+    "mongoose": "^6.0.2",
+    "nodemon": "^2.0.12"
   }
 }
